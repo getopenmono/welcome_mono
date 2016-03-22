@@ -1,0 +1,4 @@
+build
+xcode_project.*
+*.elf
+mono_project.map
