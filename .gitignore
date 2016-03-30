@@ -2,3 +2,6 @@ build
 xcode_project.*
 *.elf
 mono_project.map
+simulate/.qmake.stash
+simulate/Info.plist
+simulate/Debug
