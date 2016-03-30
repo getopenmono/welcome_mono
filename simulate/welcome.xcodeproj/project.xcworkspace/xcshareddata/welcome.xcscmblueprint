@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0EE08F5AAABEB47A8152C1ABB9E6C1BFE1978E17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0EE08F5AAABEB47A8152C1ABB9E6C1BFE1978E17" : 0,
+    "243C77FAB17C8EE574B63D873791517B4C059D82" : 0,
+    "F1F46A51B8E32B469F42350D9889C45B3002EA5C" : 0,
+    "9BCBF4C6297B2F3BD4191561191A5FFC860EA855" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2B446C5-5053-44D7-9F71-49D4CFE4BA1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0EE08F5AAABEB47A8152C1ABB9E6C1BFE1978E17" : "welcome_mono\/",
+    "243C77FAB17C8EE574B63D873791517B4C059D82" : "mono_framework\/",
+    "F1F46A51B8E32B469F42350D9889C45B3002EA5C" : "emuno\/",
+    "9BCBF4C6297B2F3BD4191561191A5FFC860EA855" : "mbedcomp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "welcome",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "simulate\/welcome.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/getopenmono\/welcome_mono.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0EE08F5AAABEB47A8152C1ABB9E6C1BFE1978E17"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/getopenmono\/mono_framework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "243C77FAB17C8EE574B63D873791517B4C059D82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/getopenmono\/mbedComp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9BCBF4C6297B2F3BD4191561191A5FFC860EA855"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:openmono\/emuno.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1F46A51B8E32B469F42350D9889C45B3002EA5C"
+    }
+  ]
+}

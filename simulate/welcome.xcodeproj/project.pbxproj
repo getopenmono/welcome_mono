@@ -1,0 +1,2509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/ka/Dropbox/monocode/welcome_mono/simulate -f welcome.xcodeproj/qt_makeqmake.mak";
+		};
+		004F88FF74E25D773D51B6AB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/app_controller.cpp";
+			name = "app_controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		29A2A7E37A6BB09B152EC9E5 = {
+			fileRef = "004F88FF74E25D773D51B6AB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		28ACFF661E3927F125507D1E = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A55AD38229DEA8C7472E9CB5 = {
+			fileRef = "28ACFF661E3927F125507D1E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		59E0A6A8ED7D04A2CBE98F45 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/display_interface.cpp";
+			name = "display_interface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7DCEEC92C8613655226A20DF = {
+			fileRef = "59E0A6A8ED7D04A2CBE98F45";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9C4E35DAED3337193994F036 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_application_context.cpp";
+			name = "emuno_application_context.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		67045EF01B12F42E71C3A1CA = {
+			fileRef = "9C4E35DAED3337193994F036";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F25C5FBC180FA9C2C32682EA = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_display_controller.cpp";
+			name = "emuno_display_controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		48FA6C45CFD16943C15669AD = {
+			fileRef = "F25C5FBC180FA9C2C32682EA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9026A7BE045EAB1D4A514EB4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_run_loop.cpp";
+			name = "emuno_run_loop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		26D93DADAF663917C8BD87E0 = {
+			fileRef = "9026A7BE045EAB1D4A514EB4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C9D7BEFDAC89C69DC7404B09 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/GraphicsPixmapItem.cpp";
+			name = "GraphicsPixmapItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		79BF9E0548F692FBFDA1723A = {
+			fileRef = "C9D7BEFDAC89C69DC7404B09";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D43974D38D8261DB593ABDEB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/mainwindow_controller.cpp";
+			name = "mainwindow_controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		95D3A73D93F27C31DBF57550 = {
+			fileRef = "D43974D38D8261DB593ABDEB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C84098A716B87A98F38E3AA2 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/power_management.cpp";
+			name = "power_management.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1BA0156990E7B16101232AB0 = {
+			fileRef = "C84098A716B87A98F38E3AA2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		912798069DC835BEF4766CF3 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/touch_system.cpp";
+			name = "touch_system.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AAA50E9C2BE807010578075C = {
+			fileRef = "912798069DC835BEF4766CF3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A30CE5D1D71C587971D3CBF = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/virtual_display.cpp";
+			name = "virtual_display.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B2D7549587E2D3D4011FC2F6 = {
+			fileRef = "5A30CE5D1D71C587971D3CBF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3D5E7C562ABF3E43A8040C75 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/Serial.cpp";
+			name = "Serial.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BF7A3ECA349D0E3797632CA8 = {
+			fileRef = "3D5E7C562ABF3E43A8040C75";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BB411160BC9BA8FC79E69D4B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/gpio_api.c";
+			name = "gpio_api.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		04733E1CE4D1C7A21F32296F = {
+			fileRef = "BB411160BC9BA8FC79E69D4B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F6F06AE7D212F0CEAD2BB4BA = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/gpio_irq_api.c";
+			name = "gpio_irq_api.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		F51FAEAF95F5BACB8C3C9FDE = {
+			fileRef = "F6F06AE7D212F0CEAD2BB4BA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		56B57AC338C5B20BF86884F6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/us_ticker.cpp";
+			name = "us_ticker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F0DBBD1EEACE94454388C40F = {
+			fileRef = "56B57AC338C5B20BF86884F6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9A22E77FD22C81F2222EE134 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/color.cpp";
+			name = "color.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0504C766B2E921E9E9B22C48 = {
+			fileRef = "9A22E77FD22C81F2222EE134";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B102F2EA9295AD0FCE950309 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/display_painter.cpp";
+			name = "display_painter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8A7DA804DA96383FFCE611BF = {
+			fileRef = "B102F2EA9295AD0FCE950309";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C3C37820FDB4DF84BAE8681C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/text_render.cpp";
+			name = "text_render.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C4E0188A47E5EC7FE6EB9C88 = {
+			fileRef = "C3C37820FDB4DF84BAE8681C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8C28E39B989A5008B13D48B0 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/animator.cpp";
+			name = "animator.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E31CC5E0580499A561542973 = {
+			fileRef = "8C28E39B989A5008B13D48B0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5EC502F7BC65000264545810 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/background_view.cpp";
+			name = "background_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		01BCCC36AB8E57D4D7A7F858 = {
+			fileRef = "5EC502F7BC65000264545810";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6636EFBCB4E5E05EFDC4AF8C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/button_view.cpp";
+			name = "button_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		48B6FEB882D14462F3733A0C = {
+			fileRef = "6636EFBCB4E5E05EFDC4AF8C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B964C9B26073C76BEDAA32E4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/console_view.cpp";
+			name = "console_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AEC13CD0497062E02473EE97 = {
+			fileRef = "B964C9B26073C76BEDAA32E4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6824CC39785B461269AB7803 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/graph_view.cpp";
+			name = "graph_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		82A103AA81B83D4071D16A62 = {
+			fileRef = "6824CC39785B461269AB7803";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4616C8521190BB20211482FF = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/image_view.cpp";
+			name = "image_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AF28A7631C238A9584C9F5D9 = {
+			fileRef = "4616C8521190BB20211482FF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		39969824AA57D871EC0EB59A = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/progress_bar_view.cpp";
+			name = "progress_bar_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		45B9706E80F723AB86F9FA69 = {
+			fileRef = "39969824AA57D871EC0EB59A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BDB15DF6444DF68AEC7FABAB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/responder_view.cpp";
+			name = "responder_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7DDFA624D25CBDA36D9ECA04 = {
+			fileRef = "BDB15DF6444DF68AEC7FABAB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0581D7723C7DEE8B379B9883 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/status_indicator_view.cpp";
+			name = "status_indicator_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FC45FC8094BC281539F0C683 = {
+			fileRef = "0581D7723C7DEE8B379B9883";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		43CABE4B0A05CD48C4CAEFFC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/text_label_view.cpp";
+			name = "text_label_view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		24519035F88F34EB7DF9BFC0 = {
+			fileRef = "43CABE4B0A05CD48C4CAEFFC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DC1DD3DB63FBFB0DA53CEC6D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/touch_calibrator.cpp";
+			name = "touch_calibrator.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		42B57B857E7AA809E2108EB3 = {
+			fileRef = "DC1DD3DB63FBFB0DA53CEC6D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E618B6963D27426B24B642A9 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/view.cpp";
+			name = "view.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E8FE8FE37325014DA6DD71DA = {
+			fileRef = "E618B6963D27426B24B642A9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		857E4F560595B2A6FEEC280B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/ActionQueue.cpp";
+			name = "ActionQueue.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D432F9E61DE500BED6621D48 = {
+			fileRef = "857E4F560595B2A6FEEC280B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EFE0CD1218BC178FD2CE7B58 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/application_run_loop.cpp";
+			name = "application_run_loop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4E8F1349D50A8CD88B5B10D4 = {
+			fileRef = "EFE0CD1218BC178FD2CE7B58";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		812E2DDEF28C98C895EA5268 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/circle.cpp";
+			name = "circle.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2B9F1FDE8A703864D21DF90E = {
+			fileRef = "812E2DDEF28C98C895EA5268";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C4A09F2AB60A7D777AF8E81D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/consoles.cpp";
+			name = "consoles.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DF33AA732E976FC7E4EDADF2 = {
+			fileRef = "C4A09F2AB60A7D777AF8E81D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B9E48D3F7E1EDAFEB39F6208 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/date_time.cpp";
+			name = "date_time.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D715BFC5306635A68D916E85 = {
+			fileRef = "B9E48D3F7E1EDAFEB39F6208";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7263450BE09A91D0698D1815 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_digital_out.cpp";
+			name = "mn_digital_out.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8C5C09606781A0855EEE78A5 = {
+			fileRef = "7263450BE09A91D0698D1815";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0F5CDD5A39BE3FBB0EA1E83B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_serial.cpp";
+			name = "mn_serial.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		46908F1381B14DC2D141EA99 = {
+			fileRef = "0F5CDD5A39BE3FBB0EA1E83B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EC11A43284D6E8DF9AA6F8FA = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_string.cpp";
+			name = "mn_string.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2893D0799742D022637ABEF2 = {
+			fileRef = "EC11A43284D6E8DF9AA6F8FA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8E4C2A4400A42A74A6F4AA41 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_timer.cpp";
+			name = "mn_timer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9AB4410DD4DEAC87D64F744A = {
+			fileRef = "8E4C2A4400A42A74A6F4AA41";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		131ECA96AB6F7A7AF4C37C15 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/network_request.cpp";
+			name = "network_request.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		91D4CB893E6D38B22B9E1F60 = {
+			fileRef = "131ECA96AB6F7A7AF4C37C15";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0D76C15E8CA54FA3A6AA59C8 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/point.cpp";
+			name = "point.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4A8A6738C6CE8B9C57ACD141 = {
+			fileRef = "0D76C15E8CA54FA3A6AA59C8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		87D06F84CB214A9DA1CC08AC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/queue.cpp";
+			name = "queue.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1B7C921CF0314D44707BB93A = {
+			fileRef = "87D06F84CB214A9DA1CC08AC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1FA049701F5927151A4FC564 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/queue_interrupt.cpp";
+			name = "queue_interrupt.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		02B9E3EB41C1A722351C791A = {
+			fileRef = "1FA049701F5927151A4FC564";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F18984C4FC242362456AD50B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/rect.cpp";
+			name = "rect.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		471B39BE7D971B63506F72BC = {
+			fileRef = "F18984C4FC242362456AD50B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B3DF602B012759B8F39413BC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/regex.cpp";
+			name = "regex.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C7FA6BE588B6CBE3751808F = {
+			fileRef = "B3DF602B012759B8F39413BC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		67B77BCC4EAE5A9EBF72DF98 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/size.cpp";
+			name = "size.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7D5DC7A648CFEE35F869DA2E = {
+			fileRef = "67B77BCC4EAE5A9EBF72DF98";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8C9AF473A5E6608A392410D4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/text_buffer.cpp";
+			name = "text_buffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0EF2BBE56AD8C4A3001136FF = {
+			fileRef = "8C9AF473A5E6608A392410D4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		67DA94452A88F93A9AC1164D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/touch_event.cpp";
+			name = "touch_event.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		55FF71A69AC54B8B80DC6B3B = {
+			fileRef = "67DA94452A88F93A9AC1164D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		251834C9E8C045393BA412C5 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/touch_responder.cpp";
+			name = "touch_responder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		588A6D314172D0B671E5D866 = {
+			fileRef = "251834C9E8C045393BA412C5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAF10B178A5B73286C753937 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/bmp_image.cpp";
+			name = "bmp_image.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F368DF4022D1D5CD49C0A8F5 = {
+			fileRef = "AAF10B178A5B73286C753937";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5AEB4F52D85EE2362CDA1405 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/font_image.cpp";
+			name = "font_image.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4E2AD9DB2FBE2B0CAA8294F2 = {
+			fileRef = "5AEB4F52D85EE2362CDA1405";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C1FCBE9B1DC0C0A3618537C9 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/board.cpp";
+			name = "board.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D1578EE05A64799A75946DAE = {
+			fileRef = "C1FCBE9B1DC0C0A3618537C9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7768BC497467F81262DA0087 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/InterruptIn.cpp";
+			name = "InterruptIn.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		635550205ACCA94FD0A0183C = {
+			fileRef = "7768BC497467F81262DA0087";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		54DBE8775F868FBFBAAF1D73 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/Ticker.cpp";
+			name = "Ticker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		203A6FAEA15D0DF35C2E1DE6 = {
+			fileRef = "54DBE8775F868FBFBAAF1D73";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6DDD3B7326D7A7F24C62F294 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/Timeout.cpp";
+			name = "Timeout.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		67EAF39E57B841918F68BE16 = {
+			fileRef = "6DDD3B7326D7A7F24C62F294";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		70A67BFF64F8451C6FE5F943 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/Timer.cpp";
+			name = "Timer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2615B4D641F958ECCA3EF392 = {
+			fileRef = "70A67BFF64F8451C6FE5F943";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CFD6B96AC3D0D3F72809FB6E = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/TimerEvent.cpp";
+			name = "TimerEvent.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A71D5E982CE3268C2E45044C = {
+			fileRef = "CFD6B96AC3D0D3F72809FB6E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FB7AB018A98F530D869E7016 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/assert.c";
+			name = "assert.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		B82B2F1CAD2FC6AC3756E804 = {
+			fileRef = "FB7AB018A98F530D869E7016";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		042DFB2E0CA195A40BC1AB55 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/error.c";
+			name = "error.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		C7C70FFD5A267197ECF8FF55 = {
+			fileRef = "042DFB2E0CA195A40BC1AB55";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6548B9CD6BE4A9385F9A0EB6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/gpio.c";
+			name = "gpio.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		E5A26B309F9A46DB838BD5C1 = {
+			fileRef = "6548B9CD6BE4A9385F9A0EB6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D82D6E1E263627C238AF1D5F = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/mbed_interface.c";
+			name = "mbed_interface.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		7DF2D485030C4C1DF73DD22E = {
+			fileRef = "D82D6E1E263627C238AF1D5F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C7155BBE22AD96DDE72AE91F = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/ticker_api.c";
+			name = "ticker_api.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		A0D6D87CA5E96D1D71C0DFA1 = {
+			fileRef = "C7155BBE22AD96DDE72AE91F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DE88D2EF6D9FA7B1661AA0CE = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/us_ticker_api.c";
+			name = "us_ticker_api.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		BA6B7E72485B52F7EAC4FC40 = {
+			fileRef = "DE88D2EF6D9FA7B1661AA0CE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EB7E77D84105996AC3709088 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/common/wait_api.c";
+			name = "wait_api.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		D4C391CF13D9C3593BF1F5CD = {
+			fileRef = "EB7E77D84105996AC3709088";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		63423BBC17C8C6AB7E801D26 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/slre.c";
+			name = "slre.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		72915B8536BCBFB5A2620DA0 = {
+			fileRef = "63423BBC17C8C6AB7E801D26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		88E2CCE2BB3DD37BF0FE6F25 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_emuno_application_context.cpp";
+			name = "moc_emuno_application_context.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7C3028C5BD8AA7AB41D4CF60 = {
+			fileRef = "88E2CCE2BB3DD37BF0FE6F25";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B71AD375C4723D3FAC5ABCF4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_emuno_display_controller.cpp";
+			name = "moc_emuno_display_controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C3FD5D70647D6DA989303679 = {
+			fileRef = "B71AD375C4723D3FAC5ABCF4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		077E0259B558F8E4C5036697 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_emuno_run_loop.cpp";
+			name = "moc_emuno_run_loop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9D0107812720D0C1DB3812D7 = {
+			fileRef = "077E0259B558F8E4C5036697";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E4D874E1DD95DA2169893709 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_mainwindow_controller.cpp";
+			name = "moc_mainwindow_controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E48A5C9F6B116D38ECC16A78 = {
+			fileRef = "E4D874E1DD95DA2169893709";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		50C1C70615E2375ECE210CC6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_touch_system.cpp";
+			name = "moc_touch_system.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		93FFCCD25672440D63F15FC1 = {
+			fileRef = "50C1C70615E2375ECE210CC6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7B021C78AE708CC8CEA3646B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_virtual_display.cpp";
+			name = "moc_virtual_display.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CC7478127190D94040B7CE90 = {
+			fileRef = "7B021C78AE708CC8CEA3646B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7232C89ACBD92B438BC315C6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/moc_mbed_timer.cpp";
+			name = "moc_mbed_timer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A29D0ABA3C927EC9C6507BAB = {
+			fileRef = "7232C89ACBD92B438BC315C6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B9DBFB20FED5A35FC6D99D34 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/app_controller.h";
+			name = "app_controller.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		51483E79BBED73EDBC0C61EC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/display_interface.h";
+			name = "display_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		350426C808CAC76B140F2F19 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno.h";
+			name = "emuno.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		153808E49D942B0771291FED = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_application_context.h";
+			name = "emuno_application_context.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		36246FB9681FF38284C7C711 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_display_controller.h";
+			name = "emuno_display_controller.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		97986500E4AF4E7E73E5F3FD = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/emuno_run_loop.h";
+			name = "emuno_run_loop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2B29D937E397A21C5C8856CD = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/GraphicsPixmapItem.h";
+			name = "GraphicsPixmapItem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0FD65995FDBCA6295D4C8D24 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/mainwindow_controller.h";
+			name = "mainwindow_controller.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D0F48A876A6569D7F97BF3BF = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/power_management.h";
+			name = "power_management.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F5827A90C21C07C1FADF91FC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/touch_system.h";
+			name = "touch_system.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8806EFC4B704B27714B93362 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/virtual_display.h";
+			name = "virtual_display.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		82FE97315CA73458D4DD1FAA = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/cmsis.h";
+			name = "cmsis.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		582EE560A04081C0C6D98CCB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/device.h";
+			name = "device.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		011FACEB2D35630EC66A0FCD = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/gpio_object.h";
+			name = "gpio_object.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		28A99018852824169A3275DB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/mbed_timer.h";
+			name = "mbed_timer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		29E38AF96380BF8EA92AE48A = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/objects.h";
+			name = "objects.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		29B6E6D6E5B1707F5D9186A4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/emuno/vmbed/target_emuno/PinNames.h";
+			name = "PinNames.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		224757817DBB3B6BAA147070 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/accelerometer_interface.h";
+			name = "accelerometer_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8124F96A10326887397247A7 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/ActionQueue.h";
+			name = "ActionQueue.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A5DFFE5B145F70782025A355 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/application_context_interface.h";
+			name = "application_context_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DD0E5A148735259D6F7CEB40 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/application_controller_interface.h";
+			name = "application_controller_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		399B0CB8B79919D45EA8E0AE = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/application_run_loop.h";
+			name = "application_run_loop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DE7A781CA0130DAE88C845A7 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/application_run_loop_task_interface.h";
+			name = "application_run_loop_task_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D24FACF207CF6C9213A830A5 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/callback_handle.h";
+			name = "callback_handle.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FD3990331FE196A9639BEE2D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/circle.h";
+			name = "circle.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C23E7F10332400D02244F338 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/consoles.h";
+			name = "consoles.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3988BD3528FECF6C32DC3C7E = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/date_time.h";
+			name = "date_time.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		436038261ACFAEC19E242C1B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/managed_pointer.h";
+			name = "managed_pointer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0787BDD5EFF823BA1D46C659 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_digital_out.h";
+			name = "mn_digital_out.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A8EE0C7D80A531832CCD4C55 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_serial.h";
+			name = "mn_serial.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3166306352D37032439FEA26 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_string.h";
+			name = "mn_string.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6F838C0E5ABD6FA5C898D2A6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mn_timer.h";
+			name = "mn_timer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3640F7C518336DFA7A5EB470 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/mono.h";
+			name = "mono.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		43EBD0C4995AE5F7CE7B73A4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/network_request.h";
+			name = "network_request.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8E3395D163190110454C5ECC = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/point.h";
+			name = "point.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		31F39FBF74ED74088C135743 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/power_aware_interface.h";
+			name = "power_aware_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		38946176A99ECEB0E6E6F940 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/power_fenced_peripheral_interface.h";
+			name = "power_fenced_peripheral_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B5E10DFA8E897C44F0B42A2C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/power_management_interface.h";
+			name = "power_management_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		506BF60777331201B18308B0 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/power_subsystem_interface.h";
+			name = "power_subsystem_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		91FAF50550CA6C113D9EDAFA = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/queue.h";
+			name = "queue.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CBE73A1EAA2108B63CF295B8 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/queue_interrupt.h";
+			name = "queue_interrupt.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B7FA1699C61FB36AB4EF8456 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/rect.h";
+			name = "rect.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BE25FC30F34604405F234235 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/regex.h";
+			name = "regex.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7D5FF3C6FF14F4F0D5344120 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/settings_interface.h";
+			name = "settings_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1BDF5142586CF881A832EE0C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/size.h";
+			name = "size.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		555D19EC8661A5F27CA82E5A = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/slre.h";
+			name = "slre.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B5E125FE0A932A1FB11DA32C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/temperature_interface.h";
+			name = "temperature_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EDE9EB0F0F0CC1EC15A70228 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/text_buffer.h";
+			name = "text_buffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1B594B5D71F463FF0E3654D7 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/touch_event.h";
+			name = "touch_event.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CDC3C5BE84D3EC1A21125580 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/touch_responder.h";
+			name = "touch_responder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5D29396A1835F6C0193D1686 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/touch_system_interface.h";
+			name = "touch_system_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B762A92DAE170509616A1349 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/color.h";
+			name = "color.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D7205AE96177679010F1CF1B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/display_controller_interface.h";
+			name = "display_controller_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AE256357E23D8702A29F3F8E = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/display_painter.h";
+			name = "display_painter.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0BE7564E66F385502B60F5A9 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/glcdfont.h";
+			name = "glcdfont.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9ACBF48293144FF2E0E39C03 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/text_render.h";
+			name = "text_render.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AEB3914B81C0963894624A29 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/animator.h";
+			name = "animator.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6222EF56BA15A16BED9A408B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/background_view.h";
+			name = "background_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3FE284546D3E06B4EE5586CB = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/button_view.h";
+			name = "button_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7258C7E0D0774C3025916030 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/console_view.h";
+			name = "console_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5F30FC2DADFD4962E58ACA54 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/graph_view.h";
+			name = "graph_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E4CF2C6502D663AD0CD9FA4D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/image_view.h";
+			name = "image_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		641EBA2ACD3CA8D646F6B0AD = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/progress_bar_view.h";
+			name = "progress_bar_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B496C12ABCFF7A5F70C508E4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/responder_view.h";
+			name = "responder_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AC49C378EF49EA44D67AE500 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/status_indicator_view.h";
+			name = "status_indicator_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0B5040C62E9A01B33FEA723B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/text_label_view.h";
+			name = "text_label_view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D9AAAE7C0D3EED3363809FC5 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/touch_calibrator.h";
+			name = "touch_calibrator.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8442CB5FB5CF6CAE17CD197A = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/display/ui/view.h";
+			name = "view.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7E46121B0AB04D003B5AC1BF = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/bmp_image.h";
+			name = "bmp_image.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8D8E5BBC667E1C38D13D3B01 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/font_image.h";
+			name = "font_image.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		57F2E212B1022ECC1D3F3663 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/font_type_interface.h";
+			name = "font_type_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E8405BE61B8D123AC5480273 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/image.h";
+			name = "image.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		79536F8B21220B958FDF7B5D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mono_framework/media/menlo_font.h";
+			name = "menlo_font.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C6D2567A8CDF6F3A352DC9BE = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/AnalogIn.h";
+			name = "AnalogIn.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3B8A8772AC923EC976D010FD = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/DigitalOut.h";
+			name = "DigitalOut.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		53028A5D411BB445AF6FA4DF = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/FileHandle.h";
+			name = "FileHandle.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7A3F553FAD3F2E27E6AD1808 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/FunctionPointer.h";
+			name = "FunctionPointer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		85B8B610421408319BDE73A0 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/I2C.h";
+			name = "I2C.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F8D642A430082FE995C18C13 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/InterruptIn.h";
+			name = "InterruptIn.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CAA4919BC8351A1B58EDC28B = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/mbed.h";
+			name = "mbed.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		70C6B140F51EA4451B967EF6 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/mbed_assert.h";
+			name = "mbed_assert.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E77E84C4EC3FB026986045F4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/mbed_debug.h";
+			name = "mbed_debug.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3F351AC08D596D1C1521B70A = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/mbed_error.h";
+			name = "mbed_error.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F8A29CB6EBFF49E698695C4C = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/mbed_interface.h";
+			name = "mbed_interface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		976FA326668CD01C739AE437 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/platform.h";
+			name = "platform.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		09E5D080BBA6EA6E104C3454 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/SPI.h";
+			name = "SPI.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E2E86285B4046D37A2E61564 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/Ticker.h";
+			name = "Ticker.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		792E714E082CDCFC3B6058C5 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/Timeout.h";
+			name = "Timeout.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F77E25C0514B7EB9076E1848 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/Timer.h";
+			name = "Timer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3C74E5BA650868F6A677D837 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/TimerEvent.h";
+			name = "TimerEvent.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2709C1AB720B3D30A7FB12E4 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/toolchain.h";
+			name = "toolchain.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		876F887F05336158C4194BF9 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/api/wait_api.h";
+			name = "wait_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7622A04B85D893174214CA0F = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/analogin_api.h";
+			name = "analogin_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AA5BD265561B89FDD54CD660 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/buffer.h";
+			name = "buffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8127066C29C0F12579264724 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/dma_api.h";
+			name = "dma_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1AF700DA9892429CCDA4622D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/gpio_api.h";
+			name = "gpio_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		53DEA6A00A595A5864A851CE = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/gpio_irq_api.h";
+			name = "gpio_irq_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		60C54D038A8806FC1A20AEA2 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/i2c_api.h";
+			name = "i2c_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7DAD5CC730D0CA75633B5F75 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/serial_api.h";
+			name = "serial_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5D9758CFA9B94F56D4F0E33F = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/spi_api.h";
+			name = "spi_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B48E43EF044DA48AB4394001 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/ticker_api.h";
+			name = "ticker_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1B9DE03011C14C1235C0CD50 = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/mbedComp/hal/us_ticker_api.h";
+			name = "us_ticker_api.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F944C1D8624C6E4DE414273D = {
+			isa = PBXFileReference;
+			path = "/Users/ka/Dropbox/monocode/welcome_mono/simulate/project_file.pro";
+			name = "project_file.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"88E2CCE2BB3DD37BF0FE6F25",
+				"B71AD375C4723D3FAC5ABCF4",
+				"077E0259B558F8E4C5036697",
+				"E4D874E1DD95DA2169893709",
+				"50C1C70615E2375ECE210CC6",
+				"7B021C78AE708CC8CEA3646B",
+				"7232C89ACBD92B438BC315C6");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"004F88FF74E25D773D51B6AB",
+				"28ACFF661E3927F125507D1E",
+				"59E0A6A8ED7D04A2CBE98F45",
+				"9C4E35DAED3337193994F036",
+				"F25C5FBC180FA9C2C32682EA",
+				"9026A7BE045EAB1D4A514EB4",
+				"C9D7BEFDAC89C69DC7404B09",
+				"D43974D38D8261DB593ABDEB",
+				"C84098A716B87A98F38E3AA2",
+				"912798069DC835BEF4766CF3",
+				"5A30CE5D1D71C587971D3CBF",
+				"3D5E7C562ABF3E43A8040C75",
+				"BB411160BC9BA8FC79E69D4B",
+				"F6F06AE7D212F0CEAD2BB4BA",
+				"56B57AC338C5B20BF86884F6",
+				"9A22E77FD22C81F2222EE134",
+				"B102F2EA9295AD0FCE950309",
+				"C3C37820FDB4DF84BAE8681C",
+				"8C28E39B989A5008B13D48B0",
+				"5EC502F7BC65000264545810",
+				"6636EFBCB4E5E05EFDC4AF8C",
+				"B964C9B26073C76BEDAA32E4",
+				"6824CC39785B461269AB7803",
+				"4616C8521190BB20211482FF",
+				"39969824AA57D871EC0EB59A",
+				"BDB15DF6444DF68AEC7FABAB",
+				"0581D7723C7DEE8B379B9883",
+				"43CABE4B0A05CD48C4CAEFFC",
+				"DC1DD3DB63FBFB0DA53CEC6D",
+				"E618B6963D27426B24B642A9",
+				"857E4F560595B2A6FEEC280B",
+				"EFE0CD1218BC178FD2CE7B58",
+				"812E2DDEF28C98C895EA5268",
+				"C4A09F2AB60A7D777AF8E81D",
+				"B9E48D3F7E1EDAFEB39F6208",
+				"7263450BE09A91D0698D1815",
+				"0F5CDD5A39BE3FBB0EA1E83B",
+				"EC11A43284D6E8DF9AA6F8FA",
+				"8E4C2A4400A42A74A6F4AA41",
+				"131ECA96AB6F7A7AF4C37C15",
+				"0D76C15E8CA54FA3A6AA59C8",
+				"87D06F84CB214A9DA1CC08AC",
+				"1FA049701F5927151A4FC564",
+				"F18984C4FC242362456AD50B",
+				"B3DF602B012759B8F39413BC",
+				"67B77BCC4EAE5A9EBF72DF98",
+				"8C9AF473A5E6608A392410D4",
+				"67DA94452A88F93A9AC1164D",
+				"251834C9E8C045393BA412C5",
+				"AAF10B178A5B73286C753937",
+				"5AEB4F52D85EE2362CDA1405",
+				"C1FCBE9B1DC0C0A3618537C9",
+				"7768BC497467F81262DA0087",
+				"54DBE8775F868FBFBAAF1D73",
+				"6DDD3B7326D7A7F24C62F294",
+				"70A67BFF64F8451C6FE5F943",
+				"CFD6B96AC3D0D3F72809FB6E",
+				"FB7AB018A98F530D869E7016",
+				"042DFB2E0CA195A40BC1AB55",
+				"6548B9CD6BE4A9385F9A0EB6",
+				"D82D6E1E263627C238AF1D5F",
+				"C7155BBE22AD96DDE72AE91F",
+				"DE88D2EF6D9FA7B1661AA0CE",
+				"EB7E77D84105996AC3709088",
+				"63423BBC17C8C6AB7E801D26",
+				"B9DBFB20FED5A35FC6D99D34",
+				"51483E79BBED73EDBC0C61EC",
+				"350426C808CAC76B140F2F19",
+				"153808E49D942B0771291FED",
+				"36246FB9681FF38284C7C711",
+				"97986500E4AF4E7E73E5F3FD",
+				"2B29D937E397A21C5C8856CD",
+				"0FD65995FDBCA6295D4C8D24",
+				"D0F48A876A6569D7F97BF3BF",
+				"F5827A90C21C07C1FADF91FC",
+				"8806EFC4B704B27714B93362",
+				"82FE97315CA73458D4DD1FAA",
+				"582EE560A04081C0C6D98CCB",
+				"011FACEB2D35630EC66A0FCD",
+				"28A99018852824169A3275DB",
+				"29E38AF96380BF8EA92AE48A",
+				"29B6E6D6E5B1707F5D9186A4",
+				"224757817DBB3B6BAA147070",
+				"8124F96A10326887397247A7",
+				"A5DFFE5B145F70782025A355",
+				"DD0E5A148735259D6F7CEB40",
+				"399B0CB8B79919D45EA8E0AE",
+				"DE7A781CA0130DAE88C845A7",
+				"D24FACF207CF6C9213A830A5",
+				"FD3990331FE196A9639BEE2D",
+				"C23E7F10332400D02244F338",
+				"3988BD3528FECF6C32DC3C7E",
+				"436038261ACFAEC19E242C1B",
+				"0787BDD5EFF823BA1D46C659",
+				"A8EE0C7D80A531832CCD4C55",
+				"3166306352D37032439FEA26",
+				"6F838C0E5ABD6FA5C898D2A6",
+				"3640F7C518336DFA7A5EB470",
+				"43EBD0C4995AE5F7CE7B73A4",
+				"8E3395D163190110454C5ECC",
+				"31F39FBF74ED74088C135743",
+				"38946176A99ECEB0E6E6F940",
+				"B5E10DFA8E897C44F0B42A2C",
+				"506BF60777331201B18308B0",
+				"91FAF50550CA6C113D9EDAFA",
+				"CBE73A1EAA2108B63CF295B8",
+				"B7FA1699C61FB36AB4EF8456",
+				"BE25FC30F34604405F234235",
+				"7D5FF3C6FF14F4F0D5344120",
+				"1BDF5142586CF881A832EE0C",
+				"555D19EC8661A5F27CA82E5A",
+				"B5E125FE0A932A1FB11DA32C",
+				"EDE9EB0F0F0CC1EC15A70228",
+				"1B594B5D71F463FF0E3654D7",
+				"CDC3C5BE84D3EC1A21125580",
+				"5D29396A1835F6C0193D1686",
+				"B762A92DAE170509616A1349",
+				"D7205AE96177679010F1CF1B",
+				"AE256357E23D8702A29F3F8E",
+				"0BE7564E66F385502B60F5A9",
+				"9ACBF48293144FF2E0E39C03",
+				"AEB3914B81C0963894624A29",
+				"6222EF56BA15A16BED9A408B",
+				"3FE284546D3E06B4EE5586CB",
+				"7258C7E0D0774C3025916030",
+				"5F30FC2DADFD4962E58ACA54",
+				"E4CF2C6502D663AD0CD9FA4D",
+				"641EBA2ACD3CA8D646F6B0AD",
+				"B496C12ABCFF7A5F70C508E4",
+				"AC49C378EF49EA44D67AE500",
+				"0B5040C62E9A01B33FEA723B",
+				"D9AAAE7C0D3EED3363809FC5",
+				"8442CB5FB5CF6CAE17CD197A",
+				"7E46121B0AB04D003B5AC1BF",
+				"8D8E5BBC667E1C38D13D3B01",
+				"57F2E212B1022ECC1D3F3663",
+				"E8405BE61B8D123AC5480273",
+				"79536F8B21220B958FDF7B5D",
+				"C6D2567A8CDF6F3A352DC9BE",
+				"3B8A8772AC923EC976D010FD",
+				"53028A5D411BB445AF6FA4DF",
+				"7A3F553FAD3F2E27E6AD1808",
+				"85B8B610421408319BDE73A0",
+				"F8D642A430082FE995C18C13",
+				"CAA4919BC8351A1B58EDC28B",
+				"70C6B140F51EA4451B967EF6",
+				"E77E84C4EC3FB026986045F4",
+				"3F351AC08D596D1C1521B70A",
+				"F8A29CB6EBFF49E698695C4C",
+				"976FA326668CD01C739AE437",
+				"09E5D080BBA6EA6E104C3454",
+				"E2E86285B4046D37A2E61564",
+				"792E714E082CDCFC3B6058C5",
+				"F77E25C0514B7EB9076E1848",
+				"3C74E5BA650868F6A677D837",
+				"2709C1AB720B3D30A7FB12E4",
+				"876F887F05336158C4194BF9",
+				"7622A04B85D893174214CA0F",
+				"AA5BD265561B89FDD54CD660",
+				"8127066C29C0F12579264724",
+				"1AF700DA9892429CCDA4622D",
+				"53DEA6A00A595A5864A851CE",
+				"60C54D038A8806FC1A20AEA2",
+				"7DAD5CC730D0CA75633B5F75",
+				"5D9758CFA9B94F56D4F0E33F",
+				"B48E43EF044DA48AB4394001",
+				"1B9DE03011C14C1235C0CD50");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"F944C1D8624C6E4DE414273D");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/ka/Dropbox/monocode/welcome_mono/simulate -f welcome.xcodeproj/qt_preprocess.mak";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"29A2A7E37A6BB09B152EC9E5",
+				"A55AD38229DEA8C7472E9CB5",
+				"7DCEEC92C8613655226A20DF",
+				"67045EF01B12F42E71C3A1CA",
+				"48FA6C45CFD16943C15669AD",
+				"26D93DADAF663917C8BD87E0",
+				"79BF9E0548F692FBFDA1723A",
+				"95D3A73D93F27C31DBF57550",
+				"1BA0156990E7B16101232AB0",
+				"AAA50E9C2BE807010578075C",
+				"B2D7549587E2D3D4011FC2F6",
+				"BF7A3ECA349D0E3797632CA8",
+				"04733E1CE4D1C7A21F32296F",
+				"F51FAEAF95F5BACB8C3C9FDE",
+				"F0DBBD1EEACE94454388C40F",
+				"0504C766B2E921E9E9B22C48",
+				"8A7DA804DA96383FFCE611BF",
+				"C4E0188A47E5EC7FE6EB9C88",
+				"E31CC5E0580499A561542973",
+				"01BCCC36AB8E57D4D7A7F858",
+				"48B6FEB882D14462F3733A0C",
+				"AEC13CD0497062E02473EE97",
+				"82A103AA81B83D4071D16A62",
+				"AF28A7631C238A9584C9F5D9",
+				"45B9706E80F723AB86F9FA69",
+				"7DDFA624D25CBDA36D9ECA04",
+				"FC45FC8094BC281539F0C683",
+				"24519035F88F34EB7DF9BFC0",
+				"42B57B857E7AA809E2108EB3",
+				"E8FE8FE37325014DA6DD71DA",
+				"D432F9E61DE500BED6621D48",
+				"4E8F1349D50A8CD88B5B10D4",
+				"2B9F1FDE8A703864D21DF90E",
+				"DF33AA732E976FC7E4EDADF2",
+				"D715BFC5306635A68D916E85",
+				"8C5C09606781A0855EEE78A5",
+				"46908F1381B14DC2D141EA99",
+				"2893D0799742D022637ABEF2",
+				"9AB4410DD4DEAC87D64F744A",
+				"91D4CB893E6D38B22B9E1F60",
+				"4A8A6738C6CE8B9C57ACD141",
+				"1B7C921CF0314D44707BB93A",
+				"02B9E3EB41C1A722351C791A",
+				"471B39BE7D971B63506F72BC",
+				"6C7FA6BE588B6CBE3751808F",
+				"7D5DC7A648CFEE35F869DA2E",
+				"0EF2BBE56AD8C4A3001136FF",
+				"55FF71A69AC54B8B80DC6B3B",
+				"588A6D314172D0B671E5D866",
+				"F368DF4022D1D5CD49C0A8F5",
+				"4E2AD9DB2FBE2B0CAA8294F2",
+				"D1578EE05A64799A75946DAE",
+				"635550205ACCA94FD0A0183C",
+				"203A6FAEA15D0DF35C2E1DE6",
+				"67EAF39E57B841918F68BE16",
+				"2615B4D641F958ECCA3EF392",
+				"A71D5E982CE3268C2E45044C",
+				"B82B2F1CAD2FC6AC3756E804",
+				"C7C70FFD5A267197ECF8FF55",
+				"E5A26B309F9A46DB838BD5C1",
+				"7DF2D485030C4C1DF73DD22E",
+				"A0D6D87CA5E96D1D71C0DFA1",
+				"BA6B7E72485B52F7EAC4FC40",
+				"D4C391CF13D9C3593BF1F5CD",
+				"72915B8536BCBFB5A2620DA0",
+				"7C3028C5BD8AA7AB41D4CF60",
+				"C3FD5D70647D6DA989303679",
+				"9D0107812720D0C1DB3812D7",
+				"E48A5C9F6B116D38ECC16A78",
+				"93FFCCD25672440D63F15FC1",
+				"CC7478127190D94040B7CE90",
+				"A29D0ABA3C927EC9C6507BAB");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		C9780148523B7C4AE2A6D1CD = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "/Developer/Qt/5.4/clang_64/lib/QtWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		1CA2682D4FC499BB35332467 = {
+			fileRef = "C9780148523B7C4AE2A6D1CD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4E48DC8288CF219E5CA9730B = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Developer/Qt/5.4/clang_64/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B0912ED6E0CC26D1388064C1 = {
+			fileRef = "4E48DC8288CF219E5CA9730B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B16C47551A022FDC91BE6DCD = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Developer/Qt/5.4/clang_64/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F7859D4C9B3977E08A60CD63 = {
+			fileRef = "B16C47551A022FDC91BE6DCD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EBEA9E60C65C4603F0A4A15C = {
+			isa = PBXFileReference;
+			name = "QtNetwork.framework";
+			path = "/Developer/Qt/5.4/clang_64/lib/QtNetwork.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		909367A58E8F68FE28A96BB4 = {
+			fileRef = "EBEA9E60C65C4603F0A4A15C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"C9780148523B7C4AE2A6D1CD",
+				"4E48DC8288CF219E5CA9730B",
+				"B16C47551A022FDC91BE6DCD",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"EBEA9E60C65C4603F0A4A15C",
+				"D4B32C2222F82AC56BADEB21",
+				"8D9815BDB5BD9F90D2BC05C5");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"1CA2682D4FC499BB35332467",
+				"B0912ED6E0CC26D1388064C1",
+				"F7859D4C9B3977E08A60CD63",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"909367A58E8F68FE28A96BB4",
+				"8771A8C96E9C391044035D99",
+				"E45E51A644D5FC9F942ECE55");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		7418E505859EC1AF3D0506C1 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "welcome.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"7418E505859EC1AF3D0506C1");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "welcome";
+			sourceTree = "<Group>";
+		};
+		B84FFA66843FD3DFA3C920A0 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		2E0378C2009E57192FE9134A = {
+			isa = PBXTargetDependency;
+			target = "B84FFA66843FD3DFA3C920A0";
+		};
+		5A5B6653B1A5F7B367A822A2 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"2E0378C2009E57192FE9134A");
+			productReference = "7418E505859EC1AF3D0506C1";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "welcome";
+			productName = "welcome";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "welcome";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/ka/Dropbox/monocode/welcome_mono/simulate";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../emuno",
+					"../../emuno/vmbed",
+					"../../emuno/vmbed/target_emuno",
+					"../../mono_framework",
+					"../../mono_framework/display",
+					"../../mono_framework/display/ui",
+					"../../mbedComp/api",
+					"../../mbedComp/hal",
+					"../../mbedComp/common",
+					"/Developer/Qt/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtNetwork.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Developer/Qt/5.4/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Developer/Qt/5.4/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Developer/Qt/5.4/clang_64/lib",
+					"/Developer/Qt/5.4/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DEMUNO",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DEMUNO",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,/Developer/Qt/5.4/clang_64/lib",
+						"-F/Developer/Qt/5.4/clang_64/lib");
+				ARCHS = "x86_64";
+				OBJROOT = "build/";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "welcome";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "welcome";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "welcome";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/ka/Dropbox/monocode/welcome_mono/simulate";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../emuno",
+					"../../emuno/vmbed",
+					"../../emuno/vmbed/target_emuno",
+					"../../mono_framework",
+					"../../mono_framework/display",
+					"../../mono_framework/display/ui",
+					"../../mbedComp/api",
+					"../../mbedComp/hal",
+					"../../mbedComp/common",
+					"/Developer/Qt/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtNetwork.framework/Versions/5/Headers",
+					"/Developer/Qt/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Developer/Qt/5.4/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Developer/Qt/5.4/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Developer/Qt/5.4/clang_64/lib",
+					"/Developer/Qt/5.4/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DEMUNO",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DEMUNO",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,/Developer/Qt/5.4/clang_64/lib",
+						"-F/Developer/Qt/5.4/clang_64/lib");
+				ARCHS = "x86_64";
+				OBJROOT = "build/";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "welcome";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "welcome";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"5A5B6653B1A5F7B367A822A2",
+				"B84FFA66843FD3DFA3C920A0");
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}
