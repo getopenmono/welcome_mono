@@ -5,3 +5,5 @@ mono_project.map
 simulate/.qmake.stash
 simulate/Info.plist
 simulate/Debug
+DerivedData
+simulate/*.xcodeproj
