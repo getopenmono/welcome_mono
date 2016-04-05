@@ -21,8 +21,11 @@ public:
     void RespondTouchBegin(TouchEvent &event);
     void RespondTouchMove(TouchEvent &event);
     void RespondTouchEnd(TouchEvent &event);
+    Timer holdTimer;
 
     mbed::FunctionPointer pushHandler;
+
+    Toucher();
 };
 
 
@@ -57,6 +60,8 @@ public:
     void damp();
 
     void fadeOut();
+
+    void emitSerial();
 
     // MARK : Setup & Sleep
     

@@ -173,6 +173,13 @@ void AppController::monoWakeFromReset()
     toucher.pushHandler.attach<AppController>(this, &AppController::changeTextColor);
     toucher.Activate();
 
+
+    emitSerial();
+    Timer::callOnce(500, this, &AppController::emitSerial);
+}
+
+void AppController::emitSerial()
+{
     //emit serial number on serial port
     uint32_t unique[2] = {0,0};
     CyGetUniqueId((uint32_t*)&unique);
@@ -207,15 +214,20 @@ void AppController::monoWakeFromSleep()
 
 /// MARK: Toucher Methods
 
+Toucher::Toucher() : holdTimer(100)
+{
+    holdTimer.setCallback<mbed::FunctionPointer>(&pushHandler, &mbed::FunctionPointer::call);
+}
+
 void Toucher::RespondTouchBegin(TouchEvent &)
 {
     pushHandler.call();
+    holdTimer.Start();
 }
 void Toucher::RespondTouchMove(TouchEvent &)
 {
-
 }
 void Toucher::RespondTouchEnd(TouchEvent &)
 {
-
+    holdTimer.Stop();
 }
